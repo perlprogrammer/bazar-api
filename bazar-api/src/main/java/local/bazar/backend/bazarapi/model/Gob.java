@@ -19,8 +19,8 @@ public class Gob implements Serializable {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(nullable = false, updatable = false)
     private Long id;
-    private int uid;
-    private Date gobdate;
+
+    private Date gob_date;
     private int status;
     private Date date;
     private Time time;

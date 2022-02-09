@@ -33,7 +33,7 @@ public class GobService {
     }
 
     public Gob findGobById(Long id){
-        return gobRepo.findBGobyId(id).orElseThrow(()-> new UserNotFoundException("Gob by id " + id +" was not found"));
+        return gobRepo.findGobById(id).orElseThrow(()-> new UserNotFoundException("Gob by id " + id +" was not found"));
     }
 
     public void deleteGob(Long id){
